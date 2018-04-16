@@ -10,6 +10,8 @@
 
 <h3>Installing the Suggested Dependencies</h3>
 <p>`brew install sdl2 libogg libvorbis` is the command line syntax that one has suggested to use in order to add the dependencies for `Gosu`. I have successfully installed these dependencies - including sd12, libogg, libvorbis - by using `Linuxbrew`, but unfortunately this did not solve the issue with the constant failure in building gem native extension for the `Gosu` gem. Thus, I had to find another way to solve the issue.</p>
+<hr>
+<h2>Example of installing dependencieis for Python(Just an example for reference)</h2>
 <img src="../images/brew.png"/>
 
 <h3>Additional Packages are Needed</h3>
