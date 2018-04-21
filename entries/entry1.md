@@ -12,5 +12,5 @@ Gosu is a programming language that allows the programmer to create two-dimensio
 <img src="../images/pokemon.jpg"/>
 
 ## Next Step
--Grasp the concepts of Gosu by doing the tutorials.
--Think about what I want to make using Gosu.
+- Grasp the concepts of Gosu by doing the tutorials.
+- Think about what I want to make using Gosu.
