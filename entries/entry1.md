@@ -9,7 +9,7 @@ There are so many interesting topics that I could possibly study for my independ
 
 Gosu is a programming language that allows the programmer to create two-dimensional games, such as snake and mario. It is implemented as a gem that is compatible with Ruby.
 
-<img src="../images/pokemon.jpg"/>
+<img src="../images/entry1-images/pokemon.jpg"/>
 
 ## Next Step
 - Grasp the concepts of Gosu by doing the tutorials.

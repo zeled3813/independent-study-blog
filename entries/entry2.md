@@ -4,14 +4,14 @@
 
 ### Creating a window using Gosu
 The essential part of Gosu is the subclass that uses inheritance - Gosu:Window. This subclass allows one to create a specific window with one's desired pixel size, ex. one could create a 500x500 pixel-sized window when the window is initialized.
-<img src="../images/Mac-window.png"/>
+<img src="../images/entry2-images/Mac-window.png"/>
 
 ### Update and Draw
 Similar to P5js's function setup and draw that call the functions, Gosu also relays on calling the methods. Although initializing the window would only be called once everytime a new Gosu class is defined, update and draw constantly overrides the current method 60 times per second. While update and draw both override the method, they work a little bit differently. Update always overrides the previous method, but draw may not override the previous method due to performance issues. Also, unlike draw, update is where the game logic, such as moving objects around and testing for collision, belongs because it always overrides the method.
 
 ### Show
 Show is another essential concept of Gosu that cannot be forget. A program with Gosu might be brilliant and amazing, but it would not work without the show method. It is a simple way to display the window that has been initialized in the class.
-<img src="../images/gem-collector-window.jpg"/>
+<img src="../images/entry2-images/gem-collector-window.jpg"/>
 
 ## Simple Game Logics
 
@@ -36,4 +36,6 @@ One could modify the method button_down to fulfill the game logic. Let's say the
 
 ## Next Step
 - While I have been digging into the concepts of Gosu from the tutorials and videos, and learned a lot from those. I have not yet created or tested anything myself because I could not succeed in installing neither the Gosu-Examples gem nor the original Gosu gem. Although I have looked into the issue/error code on Google, I have yet to find a solution to the issue. Judging from what I found on Google, people mention the compatibility of Gosu with newly updated Ruby and the companion gems that Gosu requires in order to work. Hopefully I can get it to work next week so I can test things out myself.
-<img src="../images/giphy.gif"/>
+
+
+<img src="../images/entry2-images/giphy.gif"/>
