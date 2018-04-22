@@ -18,19 +18,19 @@ After looking through threads, I found someone who had the same problem with `go
 
 <img src="../images/entry4-images/cloud9-display-screen.png"/>
 
-At this point, I figured that it would be easier to use my own windows operating system to install `gosu` and other gems such as `rmagick`, `chipmunk`, and `opengl`.
+At this point, I figured that it would be easier to use my own Windows operating system to install `gosu` and other gems such as `rmagick`, `chipmunk`, and `opengl`.
 
 ### Terminal and Editor
-The solution was not as complicated as I thought. Because my windows opearting system already has its own terminal/command line, the only tool that I need was the editor. And then I found this amazing editor - Sublime Text.
+The solution was not as complicated as I thought. Because my Windows opearting system already has its own terminal/command line, the only tool that I need was the editor. And then I found this amazing editor - Sublime Text.
 
 <img src="../images/entry4-images/sublime-text.png"/>
 
 ### Gems
-Since the way to install `gosu` is completely different on a windows operating system than macOS and Linux, it was extremely easy for me to install `gosu` using my windows terminal. All I need to do was install `Ruby` and `rubyGems` then  `gem install gosu` in the terminal. 
+Since the way to install `gosu` is completely different on a Windows operating system than macOS and Linux, it was extremely easy for me to install `gosu` using my Windows terminal. All I need to do was install `Ruby` and `rubyGems` then  `gem install gosu` in the terminal. 
 
 <img src="../images/entry4-images/gosu-install.png"/>
 
-Other than the main `gosu` gem, I also had to install mutliple libraries for additional usages.
+Other than the main `gosu` gem, I also had to install multiple libraries for additional usages.
 
 ```bash
 gem install chipmunk
@@ -44,7 +44,7 @@ While `chipmunk` and `opengl` were installed without any issue, I had to look in
 path=c:\path to ImageMagick\ImageMagick-6.7.9-Q8;%path%
 ```
 
-`ImageMagick` is required to install `rmagick` gem. Thus, I installed `ImageMagick` to a path without any space(the most important step), and I set the path of `ImageMagick` prior to the window's default path, and checked the installation with `convert -v`. Lastly I had to gem install `rmagick` with the path to ImageMagick.
+`ImageMagick` is required to install `rmagick` gem. Thus, I installed `ImageMagick` to a path without any space(the most important step), and I set the path of `ImageMagick` prior to the Windows default path, and checked the installation with `convert -v`. Lastly I had to gem install `rmagick` with the path to ImageMagick.
 
 ```bash
 gem install rmagick -- '--with-opt-dir="[path to ImageMagick]"
@@ -66,8 +66,8 @@ Example using `chipmunk`
 
 
 ## Takeaways
-- **A problem and the solution to it might not be as complicated as you think.** Honestly, I feel like I wasted my time on extra works for no reason. I did not have to spend weeks searching for the solutions to the chain of problems, but it was kinda a must because I had no prior knowledge about this simple solution to install `gosu`. And even if I did know about it, I would probably still try to use web IDEs to install `gosu` because of its convenience and the issue with multiple devices when you use your own window terminal.
-- **Always make sure that you follow the right instruction and always test things out.** When reading a thread, comment, or offical instruction, make sure you read every single line carefully. Do not skip the instruction beecause every line is important for you to accomplish what you want.
+- **A problem and the solution to it might not be as complicated as you think.** Honestly, I feel like I wasted my time on extra works for no reason. I did not have to spend weeks searching for the solutions to the chain of problems, but it was kinda a must because I had no prior knowledge about this simple solution to install `gosu`. And even if I did know about it, I would probably still try to use web IDEs to install `gosu` because of its convenience and the issue with multiple devices when you use your own Windows terminal.
+- **Always make sure that you follow the right instruction.** When reading a thread, comment, or official instruction, make sure you read every single line carefully. Do not skip the instruction because every line is important for you to accomplish what you want. 
 
 ## Next Step
-- Although I have sucessfully installed `gosu` and begin tinkering with the examples. I am pretty late on schedule, thus, I need to focus and learn about `opengl`,`rmagick`, and `chipmunk` at a fast pace next week. 
+- Although I have successfully installed `gosu` and begin tinkering with the examples. I am pretty late on schedule, thus, I need to focus and learn about `opengl`,`rmagick`, and `chipmunk` at a fast pace next week. 
