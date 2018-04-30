@@ -2,3 +2,4 @@
 + [Entry 2: Getting into Gosu](entries/entry2.md)
 + [Entry 3: Installing Dependencies](entries/entry3.md)
 + [Entry 4: Installing Gems and Tinkering](entries/entry4.md)
++ [Entry 5: Thinking about What to Make](entries/entry5.md)

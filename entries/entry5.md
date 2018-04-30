@@ -1,4 +1,4 @@
-# Entry 5: Thinking What to Make
+# Entry 5: Thinking about What to Make
 I spent week 5 thinking about what game to make using `gosu`. Thus, I spent time to try out different components of basic Gosu::Window  that I could utilize in any game that I will create in the future week. 
 
 ### Sound and Sample
