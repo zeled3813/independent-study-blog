@@ -43,19 +43,21 @@ The result of the above code looks something like the image below.
 
 <img src="../images/entry5-images/mario_moving.gif"/>
 
-Is it also possible to have the following animation effects with sprite sheet. Isn't it awesome?
+Is it also possible to have the following animation effects by using sprite sheet. Isn't it awesome?
 
 <img src="../images/entry5-images/goku-moving.gif"/>
 
 
 ### Coming up with Ideas
-- I thought I could make games 
-- 
-For now, I will ...
+- I thought I could make games that I have made differently in other languages like `p5js`. A maze game like the one that I made with `p5js` might be nice to see in Ruby `gosu`, because I can do a lot more with the `gosu` library and other gems than what I could with `p5js`.
+- A competitive two players shooting game sounds appealing and interesting. The battle takes place in space with two spaceships, one tries to shoot down the other, and the last one standing is the winner. (Most challenging on the list)
+- A 2D running game with obstacles coming right into your face. The purpose is try to stay alive for as long as possible, high score based. The player starts with three or more health points, and the health point decreases by one whenever the avatar is hit by an obstacle; also, the player loses if the health point hits zero. 
+
+For now, I will stick with the 2D running game unless I change my mind while coding the 2D running game.
 
 
 ## Takeaways
-- ** **
+- **There might be many options to what to make, but it is the best to go steadily than hit yourself with more difficult challenges.** I thought it would be most appropriate to start with something easy and see how it goes. Just like when one is building a car, you can't challenge yourself to make a car when you don't know how to make a skateboard.
 
 ## Next Step
-- ** **
+- I will continue coding the 2D running game. I will definitely encounter issues and problems while coding, and I will learn more about `gosu` from these issues and challenges.
