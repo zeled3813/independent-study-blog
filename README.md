@@ -3,3 +3,4 @@
 + [Entry 3: Installing Dependencies](entries/entry3.md)
 + [Entry 4: Installing Gems and Tinkering](entries/entry4.md)
 + [Entry 5: Thinking about What to Make](entries/entry5.md)
++ [Entry 6: Working on MVP](entries/entry6.md)
