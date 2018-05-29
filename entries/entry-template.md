@@ -18,7 +18,6 @@
 
 <img src="../images/"/>
 
-pty spaces.
 
 ## 
 

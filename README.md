@@ -6,3 +6,4 @@
 + [Entry 6: Working on MVP](entries/entry6.md)
 + [Entry 7: Developing the MVP](entries/entry7.md)
 + [Entry 8: Further Developing the gosu project](entries/entry8.md)
++ [Entry 9](entries/entry9.md)
